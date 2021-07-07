@@ -1,0 +1,10 @@
+[server]
+jar_file_name = "paper-1.17-79.jar"
+jar_file_url = "https://papermc.io/api/v2/projects/paper/versions/1.17/builds/79/downloads/paper-1.17-79.jar"
+port = "25500"
+
+[machine]
+java_command = "{{ .Pwd }}/jdk-16.0.1.jdk/Contents/Home/bin/java"
+max_allocation = "2G"
+pre_allocation = "1G"
+working_directory = "{{ .Pwd }}/testing"
